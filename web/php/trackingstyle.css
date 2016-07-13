@@ -1,0 +1,32 @@
+body {
+	background-color: lightgray;
+	font-family: "Lucida Console", Lucida, Monospace;
+}
+#title {
+	background-color: #000000;
+	font-family: "Lucida Console", Lucida, Monospace;
+	color: Gainsboro;
+	border-style: groove;
+	text-align: center;
+	margin-bottom: 5px;
+		
+}
+#map {	
+	width: 60%;
+	height: 70%;
+	border-style: groove;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+div.tracking {
+	text-align: center;
+	font-family: "Lucida Console", Lucida, Monospace;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.container {
+	font-family: "Lucida Console", Lucida, Monospace;
+	float: left;
+}

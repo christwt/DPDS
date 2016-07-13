@@ -1,0 +1,56 @@
+/*Change navbar colors*/
+
+.navbar-custom {
+  background-color: #000000;
+  border-color: #c0c0c0;
+}
+
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a {
+  background-color: #fff;
+  color: #000000;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color : #c0c0c0;
+}
+
+
+.navbar-custom .navbar-brand {
+  color : #c0c0c0;
+}
+
+
+
+/*Change button color */
+
+.btn {
+   background-color: #fff;
+   border-color: #c0c0c0;
+
+}
+
+/*Templates below from: https://bootstrapbay.com/blog/bootstrap-button-styles/ */
+
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #000000;
+    color: #fff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #fff;
+    color: #000000;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #c0c0c0;
+    box-shadow: none;
+}
+
+

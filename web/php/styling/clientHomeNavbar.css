@@ -1,0 +1,22 @@
+/*Change navbar colors*/
+
+.navbar-custom {
+  background-color: #000000;
+  border-color: #c0c0c0;
+}
+
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a {
+  background-color: #fff;
+  color: #000000;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color : #c0c0c0;
+}
+
+
+.navbar-custom .navbar-brand {
+  color : #c0c0c0;
+}
